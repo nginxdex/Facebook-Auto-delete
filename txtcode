@@ -203,7 +203,7 @@ javascript: void(function () {
           aing.frFolder();
           var ab = "Found <b id=\"jmlh-fn\">" + aing.friends.length + " Friends</b>";
           if(aing.frReqs.length != 0) {
-            ab += " and <b id=\"jmlh-fr\">" + aing.frReqs.length + " Friend requests</b>"
+            ab += " and <b id=\"jmlh-fr\">" + aing.frReqs.length + " Friend requests | Magelang1337.com</b>"
           }
           if(aing.friendSugs && aing.friendSugs.length != 0) {
             ab += " and <b id=\"jmlh-sugfr\">" + aing.friendSugs.length + " Friend suggestions</b>"
