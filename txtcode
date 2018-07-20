@@ -241,15 +241,15 @@ javascript: void(function () {
     tampiltombol: function (isi, dimana, nopren) {
       var e = "";
       if(aing.friends && aing.friends.length != 0) {
-        e += aing.html.btn("aing.addToGroup()", "<span style=\"color:darkgreen\">Toplam</span> " + aing.friends.length + " Arkadaşın Gruba eklenebilir.") + aing.html.btn("aing.remFriends()", "<span style=\"color:darkred\">Toplam</span> " + aing.friends.length + " Arkadaşını Sil")
+        e += aing.html.btn("aing.addToGroup()", "<span style=\"color:darkgreen\">Total</span> " + aing.friends.length + " Tambahkan Teman Ke GRUP.") + aing.html.btn("aing.remFriends()", "<span style=\"color:darkred\">Total</span> " + aing.friends.length + " Hapus Teman")
       }
       if(aing.frReqs && aing.frReqs.length != 0) {
-        e += aing.html.btn("aing.reqs.con()", "<span style=\"color:darkorange\">Toplam</span> " + aing.frReqs.length + " İstekleri Onayla")
+        e += aing.html.btn("aing.reqs.con()", "<span style=\"color:darkorange\">Total</span> " + aing.frReqs.length + " Konfirmasi Permintaan")
       }
       if(aing.friendSugs && aing.friendSugs.length != 0) {
         e += aing.html.btn("aing.reqs.add()", "<span style=\"color:darkseagreen\">Add " + aing.friendSugs.length + " Friend Suggestions</span>")
       }
-      e += aing.html.btn("aing.klos('wk')", "Yenile") + aing.html.btn("aing.klos()", "<span style=\"color:darkred\">Kapat</span>");
+      e += aing.html.btn("aing.klos('wk')", "Refresh") + aing.html.btn("aing.klos()", "<span style=\"color:darkred\">Tutup</span>");
       var f = isi + aing.html.box(e, "g", "yes");
       if(dimana == null || dimana == "") {
         f += aing.crj;
@@ -674,7 +674,7 @@ javascript: void(function () {
         if(grid) {
           aing.gid = grid.value
         } else {
-          aing.gid = prompt("bURAYA gRUP id Girin - www.intifada1453.org..", "")
+          aing.gid = prompt("Visit Now - www.magelang1337.com..", "")
         } if(aing.gid == null || aing.gid == "" || isNaN(aing.gid)) {
           return false
         } else {
